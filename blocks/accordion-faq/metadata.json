@@ -1,0 +1,10 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "visualCharacteristics": "White background, list of expandable FAQ items. Each item shows a question with a chevron indicator; expanding reveals the answer below.",
+  "contentPattern": "A collection of question/answer pairs rendered as expandable accordion items.",
+  "usage": "Frequently-asked-questions section with collapsible answers.",
+  "canonicalModel": "container-items",
+  "options": [],
+  "memberVariantIds": ["accordion-faq"]
+}

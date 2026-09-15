@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-overlay",
+  "baseBlock": "hero",
+  "visualCharacteristics": "Dark, full-bleed banner with a background photo darkened by an overlay. A heading, subheading and a single CTA button sit on top, left-aligned.",
+  "contentPattern": "A background image plus overlaid heading, subheading and CTA button.",
+  "usage": "Closing call-to-action banner with an immersive full-width background image.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["hero-overlay"]
+}

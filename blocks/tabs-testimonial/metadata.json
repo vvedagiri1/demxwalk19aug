@@ -1,0 +1,10 @@
+{
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "visualCharacteristics": "White background, interactive testimonial switcher. A row of tab buttons (each an avatar + name + role) switches the active panel, which shows a large person photo beside their name, role and a quote.",
+  "contentPattern": "Each item provides a tab label (avatar, name, role) and a panel (photo, name, role, quote); one panel visible at a time.",
+  "usage": "Testimonials or customer quotes presented as switchable tabbed panels.",
+  "canonicalModel": "container-items",
+  "options": [],
+  "memberVariantIds": ["tabs-testimonial"]
+}

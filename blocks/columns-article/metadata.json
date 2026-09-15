@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-article",
+  "baseBlock": "columns",
+  "visualCharacteristics": "White background, two-column side-by-side layout. One column holds a large image; the other holds breadcrumbs, a heading, author name and a date/read-time meta line.",
+  "contentPattern": "One image cell beside a text cell containing breadcrumbs, heading and article meta.",
+  "usage": "Article or case-study intro pairing a hero image with title and byline metadata.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["columns-article"]
+}

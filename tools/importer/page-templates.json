@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://www.wknd-trendsetters.site/"
+      ],
+      "representativeUrl": "https://www.wknd-trendsetters.site/",
+      "urlPattern": "/",
+      "description": "WKND Trendsetters home page",
+      "blocks": [
+        {
+          "name": "hero-showcase",
+          "instances": [
+            ".grid-layout.tablet-1-column.grid-gap-xxl:has(.button-group)"
+          ]
+        },
+        {
+          "name": "columns-article",
+          "instances": [
+            ".grid-layout.tablet-1-column.grid-gap-lg"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            ".grid-layout.desktop-4-column.grid-gap-sm"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            ".tabs-wrapper"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            ".grid-layout.desktop-4-column.grid-gap-md"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "hero-overlay",
+          "instances": [
+            ".utility-position-relative"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc1",
+          "name": "Intro banner",
+          "selector": [
+            "#main-content > header.section.secondary-section"
+          ],
+          "style": "grey",
+          "blocks": [
+            "hero-showcase"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc2",
+          "name": "Case study intro",
+          "selector": [
+            "#main-content > section.section:nth-of-type(1)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-article"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc3",
+          "name": "Style in every snapshot",
+          "selector": [
+            "#main-content > section.section.secondary-section:nth-of-type(2)"
+          ],
+          "style": "grey",
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            ".utility-text-align-center"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "Testimonials",
+          "selector": [
+            "#main-content > section.section:nth-of-type(3)"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "Latest articles",
+          "selector": [
+            "#main-content > section.section.secondary-section:nth-of-type(4)"
+          ],
+          "style": "grey",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            ".utility-text-align-center"
+          ]
+        },
+        {
+          "id": "rc6",
+          "name": "FAQ",
+          "selector": [
+            "#main-content > section.section:nth-of-type(5)"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc7",
+          "name": "Closing CTA",
+          "selector": [
+            "#main-content > section.section.inverse-section"
+          ],
+          "style": "dark",
+          "blocks": [
+            "hero-overlay"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

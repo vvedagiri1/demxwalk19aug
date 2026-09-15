@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-gallery",
+  "baseBlock": "cards",
+  "visualCharacteristics": "Grey background, image-only grid of square photos, four columns on desktop, two on tablet, one on mobile. No captions or card bodies.",
+  "contentPattern": "A collection of image-only cards rendered as a square photo grid.",
+  "usage": "Photo gallery / snapshot grid showcasing lifestyle imagery.",
+  "canonicalModel": "container-items",
+  "options": [],
+  "memberVariantIds": ["cards-gallery"]
+}

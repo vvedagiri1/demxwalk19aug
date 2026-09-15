@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "visualCharacteristics": "Grey background, grid of article cards (four columns on desktop). Each card has an image on top, then a meta row (category tag + date) and a title heading below.",
+  "contentPattern": "A collection of cards, each with an image and a body containing a tag, a date and a title.",
+  "usage": "Article / blog listing showing latest posts with imagery and metadata.",
+  "canonicalModel": "container-items",
+  "options": [],
+  "memberVariantIds": ["cards-article"]
+}

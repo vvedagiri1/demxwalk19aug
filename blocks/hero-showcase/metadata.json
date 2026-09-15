@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-showcase",
+  "baseBlock": "hero",
+  "visualCharacteristics": "Light background, two-column split layout. Left column holds a large heading, a subheading paragraph and two CTA buttons. Right column holds a cluster of three showcase images (one wide image on top, two below).",
+  "contentPattern": "Heading + subheading + CTA button group in the first cell; a set of showcase images in a second cell.",
+  "usage": "Prominent page introduction / intro banner combining messaging, calls to action and lifestyle imagery.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["hero-showcase"]
+}
