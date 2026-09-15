@@ -2,7 +2,7 @@
   {
     "id": "main",
     "components": [
-      "section"     
+      "section"
     ]
   },
   {
@@ -15,13 +15,53 @@
       "hero",
       "cards",
       "columns",
-      "quote"
+      "fragment",
+      "hero-showcase",
+      "columns-article",
+      "cards-gallery",
+      "tabs-testimonial",
+      "cards-article",
+      "accordion-faq",
+      "hero-overlay"
+    ]
+  },
+  {
+    "id": "accordion-faq",
+    "components": [
+      "accordion-faq-item"
+    ]
+  },
+  {
+    "id": "cards-article",
+    "components": [
+      "article-card"
+    ]
+  },
+  {
+    "id": "cards-gallery",
+    "components": [
+      "card"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "columns-article",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {
@@ -37,6 +77,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "tabs-testimonial",
+    "components": [
+      "tabs-testimonial-item"
     ]
   }
 ]

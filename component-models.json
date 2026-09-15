@@ -142,6 +142,44 @@
     ]
   },
   {
+    "id": "accordion-faq-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "summary",
+        "value": "",
+        "label": "Question"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Answer",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "article-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -157,6 +195,44 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "columns-article",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
       }
     ]
   },
@@ -190,23 +266,84 @@
     ]
   },
   {
-    "id": "quote",
+    "id": "hero-overlay",
     "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       }
-     ]
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hero-showcase",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image1",
+        "label": "Image 1",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "image1Alt",
+        "label": "Image 1 Alt",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image2",
+        "label": "Image 2",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "image2Alt",
+        "label": "Image 2 Alt",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image3",
+        "label": "Image 3",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "image3Alt",
+        "label": "Image 3 Alt",
+        "value": ""
+      }
+    ]
   },
   {
     "id": "hero",
@@ -230,6 +367,46 @@
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tabs-testimonial-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "avatar",
+        "label": "Tab Avatar",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "name",
+        "value": "",
+        "label": "Name"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "role",
+        "value": "",
+        "label": "Role"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Photo",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
         "valueType": "string"
       }
     ]
